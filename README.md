@@ -8,3 +8,8 @@
 ## Snakemake
 - `snakemake -np target`: Do a dry-run (`n`) and print out the resulting shell command (`p`)
 - `snakemake --cores num_cores target`: Execute a workflow using a specified number of cores to create target file
+
+## Tmux
+- Ctrl B + S: Switch to different sessions
+- Ctrl B + D: Detach from current session
+- Ctrl B + :kill-session: Kill the current session

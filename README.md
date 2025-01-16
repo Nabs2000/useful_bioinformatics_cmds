@@ -1,4 +1,4 @@
-# Useful Bioinformatics Commands
+# Useful Bioinformatics Stuff
 
 ## Samtools Library
 - `samtools fastq -@ 4 -o reads.fastq unaligned.bam`: Convert a BAM file into a FASTQ file; useful for realignment
@@ -13,3 +13,6 @@
 - Ctrl B + S: Switch to different sessions
 - Ctrl B + D: Detach from current session
 - Ctrl B + :kill-session: Kill the current session
+
+## Tool Information
+- `bcftools`: A utility for variant calling and manipulating VCFs and BCFs

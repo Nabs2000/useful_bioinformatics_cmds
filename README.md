@@ -22,3 +22,6 @@
 
 ## Hifiasm
 - hifiasm -o prefix.asm --h1 read_A1,read_B1,... --h2 read_A2,read_B2,... unmapped_reads.fq.gz
+
+## Inspector
+- inspector.py -c primary_contigs.fa -r unmapped_reads.fa -d hifi -o inspector_output/

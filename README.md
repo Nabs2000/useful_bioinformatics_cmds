@@ -16,3 +16,6 @@
 
 ## Tool Information
 - `bcftools`: A utility for variant calling and manipulating VCFs and BCFs
+
+## Compleasm
+- `compleasm run -a ASPC_1.asm.hic.p_ctg.fa -o compleasm_output/ --autolineage`

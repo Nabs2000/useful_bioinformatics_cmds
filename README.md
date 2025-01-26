@@ -21,7 +21,11 @@
 - `compleasm run -a ASPC_1.asm.hic.p_ctg.fa -o compleasm_output/ --autolineage`
 
 ## Hifiasm
-- hifiasm -o prefix.asm --h1 read_A1,read_B1,... --h2 read_A2,read_B2,... unmapped_reads.fq.gz
+- `hifiasm -o prefix.asm --h1 read_A1,read_B1,... --h2 read_A2,read_B2,... unmapped_reads.fq.gz`
 
 ## Inspector
-- inspector.py -c primary_contigs.fa -r unmapped_reads.fa -d hifi -o inspector_output/
+- `inspector.py -c primary_contigs.fa -r unmapped_reads.fa -d hifi -o inspector_output/`
+
+## FastQC
+- `fastqc -o output_dir file.bam`
+  - NOTE: The file can be other file types. See docs for more.

@@ -19,3 +19,6 @@
 
 ## Compleasm
 - `compleasm run -a ASPC_1.asm.hic.p_ctg.fa -o compleasm_output/ --autolineage`
+
+## Hifiasm
+- hifiasm -o prefix.asm --h1 read_A1,read_B1,... --h2 read_A2,read_B2,... unmapped_reads.fq.gz
